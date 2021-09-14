@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover" name="viewport">
+
+    <title>Naveen Sequeira | Python Developer</title>
+    <!-- CSS only -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" rel="stylesheet">
+    <link href="../static/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrap">
+    <header class="header">
+        <div class="header__section header__section--media">
+            <a href="{{ url_for('home') }}">
+                <img alt=""
+                     height="100"
+                     src="../static/img/selfie-circular.png"
+                     width="100">
+            </a>
+        </div>
+        <div class="header__section header__section--menu">
+            <a class="logo" href="{{ url_for('home') }}">
+                Naveen Sequeira
+            </a>
+            <nav class="menu">
+                <a class="menu__item " href="{{ url_for('projects') }}">
+                    Projects
+                </a>
+                <a class="menu__item " href="{{ url_for('contact') }}">
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page">
+        <div class="wysiwyg">
+            <h1>Hi, I'm Naveen.</h1>
+            <p class="txt-large">I'm a Data Analyst and a budding Python programmer from Bangalore. I’m currently working
+                as a Senior Data Analyst for a MNC Bank on the Technology front. I spend my spare time learning Python
+                and building Python projects. I'm also
+                a big cricket fan and love playing, watching and reading cricket.</p>
+            <p>I have also freelanced on the Fiverr platform and completed many Excel and data related projects for
+                clients. I'm looking to transition towards Python and have been working hard to be a good Python Programmer
+                I'm looking for remote opportunities where I can put my Python skills to good use.</p>
+        </div>
+</div>
+</body>
+</html>
