@@ -87,6 +87,12 @@ p {
     text-transform: uppercase;
 }
 
+.txt-large {
+    font-size: 1.2rem;
+    line-height: 175%;
+}
+
+
 /*
 @media screen and (max-width: 500px)
 .header {
